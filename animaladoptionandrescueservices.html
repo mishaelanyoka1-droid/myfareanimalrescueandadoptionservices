@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myfare Animal Adoption & Rescue Services</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f8fbf8;
+            color: #444;
+        }
+
+        h1 {
+            color: #2E8B57;
+            text-align: center;
+            font-size: 45px;
+        }
+
+        h2 {
+            color: #2E8B57;
+        }
+
+        nav {
+            background: #2E8B57;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: white;
+            color: #2E8B57;
+            border-radius: 6px;
+        }
+
+        section {
+            width: 85%;
+            margin: 25px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 900px;
+        }
+
+        footer {
+            background: #2E8B57;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            position: relative;
+        }
+
+        .hero {
+            height: 600px;
+
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+                url("/home/mishael/Desktop/Code/happyfamily.jpg");
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+        }
+
+        .hero p {
+            font-size: 24px;
+        }
+
+        .btn {
+            background: #2E8B57;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: italic;
+            border-radius: 8px;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f8fbf8;
+            color: #444;
+        }
+
+        .closing {
+            height: 600px;
+
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+                url("/home/mishael/Desktop/Code/thankfuldog.jpg");
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+            color: white;
+        }
+
+        .video-section {
+            position: relative;
+            overflow: hidden;
+            min-height: 900px;
+            /* Adjust as needed */
+            padding: 50px 0;
+        }
+
+        .bg-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+
+            z-index: 0;
+        }
+
+        .video-section::before {
+            content: "";
+            position: absolute;
+
+            top: 0;
+            left: 0;
+
+            width: 100%;
+            height: 100%;
+
+            background: rgba(0, 0, 0, 0.45);
+
+            z-index: 1;
+        }
+
+        section {
+            width: 85%;
+            margin: 25px auto;
+            padding: 25px;
+
+            background: rgba(255, 255, 255, 0.85);
+
+            border-radius: 15px;
+
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+</head>
+<nav>
+    <a href="#About Us">About Us</a> |
+    <a href="#Mission">Mission</a> |
+    <a href="#Vision">Services</a> |
+    <a href="#Values">Values</a>|
+    <a href="#Contact Us">Contact Us</a>|
+    <a href="#Services offered">Services offered</a>
+</nav>
+
+<body>
+    <header class="hero">
+        <h1>Myfare Animal Adoption & Rescue Services</h1>
+        <p>Giving Every Animal A Loving Forever Home</p>
+        <a href="#Services offered" class="btn">Adopt Today</a>
+    </header>
+
+    <h1>Welcome to the Myfare Animal Adoption and Rescue Services</h1>
+    <p>Myfare Animal Adoption and Rescue Services is a nonprofit organization
+        dedicated to rescuing animals, providing them with quality care, and
+        finding them loving forever homes.</p>
+
+    <div class="video-section">
+        <video class="bg-video" autoplay muted loop playsinline>
+            <source src="/home/mishael/Desktop/Code/petplayingwithfamily.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <section id="About Us">
+                <h2>About Us</h2>
+                <p>We are a team of dedicated volunteers who are passionate about animal welfare and ensuring that every
+                    animal has a loving home.</p>
+            </section>
+            <section id="Mission">
+                <h2>Our Mission</h2>
+                <p>Our mission is to provide a safe and loving environment for animals in need, and to find them loving
+                    homes where they can thrive.</p>
+            </section>
+            <section id="Vision">
+                <h2>Our Vision</h2>
+                <p>Our vision is to create a world where every animal has a loving home and is treated with the care and
+                    respect they deserve.</p>
+            </section>
+            <section id="Values">
+                <h2>Our Values</h2>
+                <ul>
+                    <li>Compassion: We believe in treating every animal with kindness and empathy.</li>
+                    <li>Integrity: We are committed to being honest and transparent in all our actions.</li>
+                    <li>Collaboration: We work together with other organizations and individuals to achieve our mission.
+                    </li>
+                </ul>
+            </section>
+            <section id="Contact Us">
+                <h2> Contact Us</h2>
+                <p>For any inquiries you can contact us through:</p>
+                <ul>
+                    <li>Phone:
+                        <a href="tel:0700334647">0700334647</a> / <a href="tel:0106483524">0106483524</a>
+                    </li>
+                    <li>Email:
+                        <a href="mailto:myfareanimalservices@gmail.com">myfareanimalservices@gmail.com
+                        </a>
+                    </li>
+                    <li>Address: 5054-80200 Malindi, KENYA</li>
+                </ul>
+            </section>
+            <section id="Services offered">
+                <h2>Services offered</h2>
+                <ul>
+                    <li>Animal Adoption</li>
+                    <li>Rescue Services</li>
+                    <li>Spay and Neuter Programs</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <h3>Animal Adoption</h3>
+    <p>We provide a comprehensive animal adoption process to ensure that every animal finds a loving home. The adoption
+        process includes a thorough screening of the possible adoption options to ensure the best match for the person
+        and animal at large.</p>
+    <video width="560" controls>
+        <source src="/home/mishael/Desktop/Code/dogadoption.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h3>Rescue Services</h3>
+    <p>We provide comprehensive rescue services to help animals in need. Our team of dedicated volunteers works
+        tirelessly to ensure that every animal receives the care and attention they deserve.</p>
+    <video width="560" controls>
+        <source src="/home/mishael/Desktop/Code/homlesscatrescue.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h3>Spay and Neuter Programs</h3>
+    <p>We offer spay and neuter programs to help control the animal population and prevent unwanted litters. Our team of
+        dedicated volunteers works tirelessly to ensure that every animal receives the care and attention they deserve.
+    </p>
+    <video width="560" controls>
+        <source src="/home/mishael/Desktop/Code/dogspay.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <section id="Appreciations" class="closing">
+        <h2>Appreciations</h2>
+        <p>We would like to express our gratitude to all the volunteers, donors, and supporters who have made our work
+            possible.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Myfare Animal Adoption and Rescue Services. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
